@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#50C2C9</color>
+    <color name="SecondaryColor">#55BBAF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroud">#EEEEEE</color>
+    <color name="colorAccent">#333333</color>
+    <color name="darker_grey">#5A5A5A</color>
+    <color name="colorPrimaryLight">#E9F8F1</color>
+    <color name="underline">#D8D6D6</color>
+
+
+    //color untuk bg di home
+    <color name="home_start">#526AEE</color>
+    <color name="home_end">#4718e7</color>
+
+    <color name="product_start">#3EC2FA</color>
+    <color name="product_end">#0a83f5</color>
+
+    <color name="blog_start">#ec04fb</color>
+    <color name="blog_end">#ff0097</color>
+
+    <color name="about_start">#ff0056</color>
+    <color name="about_end">#ff3400</color>
+
+</resources>

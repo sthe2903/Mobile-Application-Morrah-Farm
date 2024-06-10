@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/image"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MorrahFarmApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".chat.admin.AdminChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".riwayat.HistoryDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".riwayat.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cart.OrderDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cart.OrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shop.ShopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cart.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".comment.KomentarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".comment.CommentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserBlogDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserBlogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserProdukDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user.UserProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".blog.BlogInsertionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".blog.BlogFetchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".blog.BlogDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".blog.CRUDBlogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CRUDProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CrudProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EmployeeDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FetchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.InsertionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CRUDProdukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".descriptionProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
